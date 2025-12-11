@@ -5,7 +5,7 @@ Installation:
 git clone https://github.com/sajdaka/spikeDetectorCheck.git
 cd spikeDetectorCheck
 
-pip install -r requirements.txt
+conda env create -f ./env/environment.yml
 ```
 Run the GUI (Recommended):
 ```console
